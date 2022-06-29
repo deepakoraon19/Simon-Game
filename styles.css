@@ -2,7 +2,12 @@ body {
     text-align: center;
     background-color: #011F3F;
   }
-  
+  @keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
   #level-title {
     font-family: 'Press Start 2P', cursive;
     font-size: 3rem;
@@ -51,4 +56,21 @@ body {
     box-shadow: 0 0 20px white;
     background-color: grey;
   }
+  p{
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+  }
+  .rules{
+    margin-top:90px;
+    width:60vw;
+    margin:auto;
+  }
+
+  .glow {
+    -webkit-box-shadow:0 0 20px white; 
+    -moz-box-shadow: 0 0 20px white; 
+    box-shadow:0 0 20px white;
+  }
+  
   
